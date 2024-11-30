@@ -1,0 +1,127 @@
+.bio-page-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+	width: 100vw;
+	background-color: #f9f9f9;
+}
+
+.stepper-container {
+	background: white;
+	padding: 30px 50px;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	width: 600px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.stepper h2 {
+	margin-bottom: 50px;
+	font-size: 2.5rem;
+	color: #333;
+}
+
+.first-step-bio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.form-step {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-step input {
+	display: block;
+	width: 100%;
+	padding: 15px;
+	background-color: #d2e0fb;
+	margin: 10px 0;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+}
+
+.error-message {
+	color: red;
+	margin-top: 10px;
+	font-size: 0.9rem;
+}
+
+.reason-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+
+.reason {
+	padding: 10px 15px;
+	border: 2px solid #ddd;
+	border-radius: 8px;
+	cursor: pointer;
+	background: #f5f5f5;
+	transition: all 0.1s ease;
+}
+
+.reason:hover {
+	background: #eef;
+}
+
+.reason.selected {
+	background: #b5fffc;
+	color: black;
+	border-color: #b5fffc;
+}
+
+.button-group {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.start-button,
+.yes-button,
+.no-button,
+.back-button,
+.next-button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.back-button {
+	background: #ccc;
+}
+
+.back-button:hover {
+	background: #bbb;
+}
+
+.next-button {
+	background: #87a2ff;
+	color: white;
+}
+
+.next-button:hover {
+	background: #87a2ff;
+}
+
+.start-button,
+.no-button,
+.yes-button {
+	background: #87a2ff;
+	color: white;
+}
+
+.no-button,
+.yes-button:hover {
+	background: #87a2ff;
+}
